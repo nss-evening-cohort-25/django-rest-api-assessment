@@ -2,39 +2,9 @@
 
 ## 🐟 Tuna Piano API
 
-This API will allow developers to build applications that recommend songs based on a provided genre. It will manage artists, songs produced by those artists, and the genre for each song.
+In this assessment, you will be building the backend for an existing React frontend application. The frontend consists of features related to Songs, Artists, and Genres. Your task is to implement the backend functionality to support these features.
 
 We'll make millions 💰 💰 💰
-
-There is no authentication needed for this API, so make sure that in your `settings.py` module that the following `AllowAny` setting exists for default persmissions.
-
-```py
-REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework.authentication.TokenAuthentication',
-    ),
-    'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.AllowAny',
-    ],
-}
-```
-
-## Vocabulary
-
-When you are done building this project, let one of your coaches know and be prepared to discuss the following learning objectives so that you can ensure that your vocabulary is solid.
-
-1. Understand and explain what a database model is.
-2. Understand and explain what a view is.
-3. Understand and explain what serializer is.
-4. Understand and explain how to expose routes in your API.
-5.  Understand and explain how the `related_name` attribute works on database models.
-6. Understand and explain a custom property on a model.
-7. Understand and explain how to use the ORM to get all rows from a table.
-8. Understand and explain how to use the ORM to get single rows from a table.
-9. Understand and explain how to use the ORM to get some rows from a table with a filter.
-10. Understand and explain how to access request body data.
-11. Understand and explain how to access URL query parameters.
-12. Be able to load data from a fixture.
 
 
 ### Setup
@@ -48,19 +18,51 @@ When you are done building this project, let one of your coaches know and be pre
 7. Implement the code
 
 
-### 🎶 Songs
+Routes by Entity
 
-1. Create a new song
-2. List all songs with genre and artist information embedded
-3. Get a single song with genre and artist information embedded
-4. List songs assigned to a specific genre
-5. List songs assigned to a specific artist
+### 🎶 Songs
+- Create a Song:
+    - Route: POST /songs
+- Delete a Song:
+    - Route: DELETE /songs/{songId}
+- Update a Song:
+    - Route: PUT /songs/{songId}
+- View a List of all the Songs:
+    - Route: GET /songs
+- Details view of a single Song and its associated genres and artist details:
+    - Route: GET /songs/{songId}
+- Search songs by genre:
+    - Route: GET /songs?genre={genreId}
 
 ### 👩🏾‍🎤 Artists
+- Create an Artist:
+    - Route: POST /artists
+- Delete an Artist:
+    - Route: DELETE /artists/{artistId}
+- Update an Artist:
+    - Route: PUT /artists/{artistId}
+- View a List of all the Artists:
+    - Route: GET /artists
+- Details view of a single Artist and the songs associated with them:
+    - Route: GET /artists/{artistId}
+- See related artists with similar genres:
+    - Route: GET /artists/{artistId}/related
+- Search artists by genre:
+    - Route: GET /artists?genre={genreId}
 
-1. Create a new artist
-2. Get a single artist.
-3. List all artists.
+### 🎸 Genres
+- Create a Genre:
+    - Route: POST /genres
+- Delete a Genre:
+    - Route: DELETE /genres/{genreId}
+- Update a Genre:
+    - Route: PUT /genres/{genreId}
+- View a List of all the Genres:
+    - Route: GET /genres
+- Details view of a single Genre and the songs associated with it:
+    - Route: GET /genres/{genreId}
+- Popular genres to see a list of genres based on the number of songs associated with each genre:
+    - Route: GET /genres/popular
 
 The artist response should include the total number of songs in the database for the artist. It should also include a serialized list of all related songs _(see example below)_.
 
