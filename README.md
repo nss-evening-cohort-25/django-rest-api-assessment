@@ -2,7 +2,7 @@
 
 ## 🐟 Tuna Piano API
 
-In this assessment, you will be building the backend for an existing React frontend application. The frontend consists of features related to Songs, Artists, and Genres. Your task is to implement the backend functionality to support these features.
+This API will allow developers to build applications that recommend songs based on a provided genre. It will manage artists, songs produced by those artists, and the genre for each song.
 
 We'll make millions 💰 💰 💰
 
@@ -68,64 +68,4 @@ The artist response should include the total number of songs in the database for
 
 ## Data Design
 
-### Artists
-
-The following information should be captured for each artist.
-
-1. Name
-2. Age
-3. Bio
-
-### Songs
-
-The following information should be captured for each song.
-
-1. Title
-2. Artist
-3. Genre
-4. Album name
-5. Length
-
-### Genres
-
-The genre model only needs to have the name of the genre on it.
-
-## JSON Responses
-
-Set up your serializers to produce the following JSON responses for getting songs and artists.
-
-## Song
-
-```json
-{
-    "id": 1,
-    "title": "Song Title",
-    "album": "Album Title",
-    "length": 342,
-    "genre": {
-        "description": "Pop"
-    },
-    "artist": {
-        "name": "Yerena Gonzalez"
-    }
-}
-```
-
-## Artist
-
-```json
-{
-    "id": 1,
-    "name": "Yerena Gonzalez",
-    "age": 26,
-    "bio": "Accusamus maxime sed illo doloribus minus. Quaerat et sed et. Harum consequatur hic ut magnam consequatur labore culpa tempore.",
-    "songs": [
-        {
-            "id": 1,
-            "title": "Song Title",
-            "album": "Album Title"
-        }
-    ],
-    "song_count": 1
-}
-```
+[![name](https://github.com/TrinityChristiana/django-api-assessment/assets/31781724/a39bab27-bc1e-4a42-9ecc-ab96130bb509)](https://dbdocs.io/trinitycterry/Tuna-Piano-API?view=relationships)
