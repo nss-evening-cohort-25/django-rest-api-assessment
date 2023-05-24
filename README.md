@@ -2,35 +2,31 @@
 
 ## 🐟 Tuna Piano API
 
-This API will allow developers to build applications that recommend songs based on a provided genre. It will manage artists, songs produced by those artists, and the genre for each song.
+This API enables developers to create applications that provide song recommendations based on genre. It manages artists, their songs, and the associated genre for each song.
 
-We'll make millions 💰 💰 💰
-
+Let's make millions! 💰 💰 💰
 
 ### Setup
 
-1. Clone the template repository
-2. `cd` to the directory it creates
-3. `pipenv shell`
-4. `pipenv install`
-5. Open in VS Code
-6. Make sure the correct interpreter is selected
-7. Implement the code
-
+1. Clone the template repository.
+2. Navigate to the created directory using `cd`.
+3. Activate the Pipenv environment with `pipenv shell`.
+4. Install the dependencies using `pipenv install`.
+5. Open the project in Visual Studio Code.
+6. Ensure that the correct interpreter is selected.
+7. Implement the code.
 
 ### MVP Routes by Entity
 
-Here are all the possible routes for this API.
-
-Each route has a ticket associated with it that lists the following information:
-- Description of the route,
-- What the request should look like
-    - Method Verb
-    - Route Path
-    - JSON Body - (if applicable)
-- What the response should look like
-    - JSON Body (if applicable)
-    - Status Code
+These are all the available routes for this API. Each route has an associated ticket containing the following information:
+- Route description.
+- Request structure:
+    - HTTP method.
+    - Route path.
+    - JSON body (if applicable).
+- Response structure:
+    - JSON body (if applicable).
+    - Status code.
 
 #### 🎶 Songs
 
@@ -56,14 +52,13 @@ Each route has a ticket associated with it that lists the following information:
 - [View a List of all the Genres](./documentation/issue-tickets/List-Genres.md)
 - [Details view of a single Genre and the songs associated with it](./documentation/issue-tickets/Details-Genre.md)
 
-
 ### Stretch Goals
 
-These are examples of stretch goals that you can complete after you've been MVP approved for the features above!
+These are examples of stretch goals that you can tackle once you have been MVP approved for the above features!
 
-- Plan out and Build out the Frontend for the MVP routes
-- [Popular genres to see a list of genres based on the number of songs associated with each genre](./documentation/issue-tickets/Popular-genres.md)
-- [See related artists with similar genres](./documentation/issue-tickets/Related-artists.md)
+- Plan and Build the Frontend for the MVP routes
+- [Popular genres: Retrieve a list of genres based on the number of associated songs](./documentation/issue-tickets/Popular-genres.md)
+- [Related artists: Retrieve artists with similar genres](./documentation/issue-tickets/Related-artists.md)
 - [Search songs by genre](./documentation/issue-tickets/Search-songs-by-genre.md)
 - [Search artists by genre](./documentation/issue-tickets/Search-artists.md)
 - Search all entities by (name/title/description)
