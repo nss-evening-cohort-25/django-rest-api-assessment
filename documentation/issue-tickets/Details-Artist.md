@@ -6,6 +6,7 @@ This ticket requests the implementation of a route that retrieves the details of
 ## Request
 - **Method:** GET
 - **Path:** /artists/{artistId}
+- unnecessary
 
 ## Response
 - **Body**
@@ -15,6 +16,7 @@ This ticket requests the implementation of a route that retrieves the details of
     "name": "Artist Name",
     "age": 25,
     "bio": "Artist Bio",
+    "song_count": 9,
     "songs": [
       {
         "id": 123,
