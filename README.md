@@ -18,54 +18,57 @@ We'll make millions 💰 💰 💰
 7. Implement the code
 
 
-Routes by Entity
+### MVP Routes by Entity
 
-### 🎶 Songs
-- Create a Song:
-    - Route: POST /songs
-- Delete a Song:
-    - Route: DELETE /songs/{songId}
-- Update a Song:
-    - Route: PUT /songs/{songId}
-- View a List of all the Songs:
-    - Route: GET /songs
-- Details view of a single Song and its associated genres and artist details:
-    - Route: GET /songs/{songId}
-- Search songs by genre:
-    - Route: GET /songs?genre={genreId}
+Here are all the possible routes for this API.
 
-### 👩🏾‍🎤 Artists
-- Create an Artist:
-    - Route: POST /artists
-- Delete an Artist:
-    - Route: DELETE /artists/{artistId}
-- Update an Artist:
-    - Route: PUT /artists/{artistId}
-- View a List of all the Artists:
-    - Route: GET /artists
-- Details view of a single Artist and the songs associated with them:
-    - Route: GET /artists/{artistId}
-- See related artists with similar genres:
-    - Route: GET /artists/{artistId}/related
-- Search artists by genre:
-    - Route: GET /artists?genre={genreId}
+Each route has a ticket associated with it that lists the following information:
+- Description of the route,
+- What the request should look like
+    - Method Verb
+    - Route Path
+    - JSON Body - (if applicable)
+- What the response should look like
+    - JSON Body (if applicable)
+    - Status Code
 
-### 🎸 Genres
-- Create a Genre:
-    - Route: POST /genres
-- Delete a Genre:
-    - Route: DELETE /genres/{genreId}
-- Update a Genre:
-    - Route: PUT /genres/{genreId}
-- View a List of all the Genres:
-    - Route: GET /genres
-- Details view of a single Genre and the songs associated with it:
-    - Route: GET /genres/{genreId}
-- Popular genres to see a list of genres based on the number of songs associated with each genre:
-    - Route: GET /genres/popular
+#### 🎶 Songs
+
+- Create a Song
+- Delete a Song
+- Update a Song
+- View a List of all the Songs
+- Details view of a single Song and its associated genres and artist details
+
+#### 👩🏾‍🎤 Artists
+
+- Create an Artist
+- Delete an Artist
+- Update an Artist
+- View a List of all the Artists
+- Details view of a single Artist and the songs associated with them
+
+#### 🎸 Genres
+
+- Create a Genre
+- Delete a Genre
+- Update a Genre
+- View a List of all the Genres
+- Details view of a single Genre and the songs associated with it
+
+
+### Stretch Goals
+- Plan out and Build out the Frontend for the MVP routes
+- Popular genres to see a list of genres based on the number of songs associated with each genre
+- See related artists with similar genres
+- Search artists by genre
+- Search songs by genre
+- Search all entities by (name/title/description)*
+
 
 The artist response should include the total number of songs in the database for the artist. It should also include a serialized list of all related songs _(see example below)_.
 
 ## Data Design
 
-[![name](https://github.com/TrinityChristiana/django-api-assessment/assets/31781724/a39bab27-bc1e-4a42-9ecc-ab96130bb509)](https://dbdocs.io/trinitycterry/Tuna-Piano-API?view=relationships)
+![ERD Picture](https://github.com/TrinityChristiana/django-api-assessment/assets/31781724/a39bab27-bc1e-4a42-9ecc-ab96130bb509)
+- [Link to ERD Docs](https://dbdocs.io/trinitycterry/Tuna-Piano-API?view=relationships)
