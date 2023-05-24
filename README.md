@@ -65,9 +65,6 @@ Each route has a ticket associated with it that lists the following information:
 - [Search artists by genre](./documentation/issue-tickets/Search-artists.md)
 - [Search all entities by (name/title/description)](url)*
 
-
-The artist response should include the total number of songs in the database for the artist. It should also include a serialized list of all related songs _(see example below)_.
-
 ## Data Design
 
 ![ERD Picture](https://github.com/TrinityChristiana/django-api-assessment/assets/31781724/a39bab27-bc1e-4a42-9ecc-ab96130bb509)
