@@ -58,12 +58,15 @@ Each route has a ticket associated with it that lists the following information:
 
 
 ### Stretch Goals
-- [Plan out and Build out the Frontend for the MVP routes](url)
+
+These are examples of stretch goals that you can complete after you've been MVP approved for the features above!
+
+- Plan out and Build out the Frontend for the MVP routes
 - [Popular genres to see a list of genres based on the number of songs associated with each genre](./documentation/issue-tickets/Popular-genres.md)
 - [See related artists with similar genres](./documentation/issue-tickets/Related-artists.md)
 - [Search songs by genre](./documentation/issue-tickets/Search-songs-by-genre.md)
 - [Search artists by genre](./documentation/issue-tickets/Search-artists.md)
-- [Search all entities by (name/title/description)](url)*
+- Search all entities by (name/title/description)
 
 ## Data Design
 
