@@ -67,3 +67,27 @@ These are examples of stretch goals that you can tackle once you have been MVP a
 
 ![ERD Picture](https://github.com/TrinityChristiana/django-api-assessment/assets/31781724/a39bab27-bc1e-4a42-9ecc-ab96130bb509)
 - [Link to ERD Docs](https://dbdocs.io/trinitycterry/Tuna-Piano-API?view=relationships)
+
+To include the specific instructions for seeking help, you can update the "Seeking Help and Clarification" section as follows:
+
+## Seeking Help and Clarification
+
+If you encounter challenges or need clarification during the assessment, follow these steps:
+
+1. Create a new discussion ticket in the [GitHub Discussions](https://github.com/orgs/nss-evening-web-development/discussions) repository, providing all the necessary details about your issue or question.
+2. Include a clear and concise description of the problem, along with any relevant code snippets, error messages, or logs.
+3. Specify the context of the problem, including the route or feature you are working on and any relevant dependencies.
+4. Once you have created the discussion ticket, post a link to it in the Help Thread within your cohort's designated communication channel (e.g., Slack).
+5. Be patient and allow time for the instructional team to review and respond to your ticket. They will provide guidance or clarification to help you move forward.
+
+By following these steps, you can ensure that your questions and issues are properly documented and brought to the attention of the instructional team. This process helps streamline communication and allows the team to provide timely and targeted assistance to support your progress during the assessment.
+
+## Best Practices for Code Organization and Implementation
+
+Consider the following tips and best practices to ensure an organized and well-structured codebase:
+
+- Follow the principles of separation of concerns and modularity, organizing code into logical components and modules.
+- Adopt a consistent coding style and naming conventions to enhance readability and maintainability.
+- Implement reusable functions or utility modules to avoid code duplication.
+- Comment code sections that might require additional explanation or clarification.
+- Properly document the API endpoints, including their purpose, expected inputs, and outputs.
