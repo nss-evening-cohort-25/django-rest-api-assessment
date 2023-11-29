@@ -11,6 +11,7 @@ djangorestframework = "3.14.0"
 django-cors-headers = "3.13.0"
 pylint-django = "2.5.3"
 pytest-django = "*"
+factory-boy = "*"
 
 [dev-packages]
 
@@ -18,4 +19,4 @@ pytest-django = "*"
 python_version = "3.9"
 
 [scripts]
-test = "python3 manage.py test"
+test = "python manage.py test"
