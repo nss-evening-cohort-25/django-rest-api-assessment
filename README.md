@@ -1,4 +1,4 @@
-# Self-Assess Your Django Competencies
+# Self-Assess Your Django Competencies 
 
 ## 🐟 Tuna Piano API
 
