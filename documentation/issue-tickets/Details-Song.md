@@ -13,14 +13,14 @@ This ticket requests the implementation of a route that retrieves the details of
   {
     "id": {songId},
     "title": "Song Title",
+    "album": "Album Name",
+    "length": 180,
     "artist": {
       "id": 456,
       "name": "Artist Name",
       "age": 30,
       "bio": "Artist Bio"
     },
-    "album": "Album Name",
-    "length": 180,
     "genres": [
       {
         "id": 789,

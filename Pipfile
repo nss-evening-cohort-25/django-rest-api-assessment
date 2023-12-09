@@ -5,19 +5,16 @@ name = "pypi"
 
 [packages]
 django = "4.1.3"
-autopep8 = "2.0.0"
-pylint = "2.15.5"
 djangorestframework = "3.14.0"
 django-cors-headers = "3.13.0"
-pylint-django = "2.5.3"
-pytest-django = "*"
 pytest = "*"
+faker = "*"
 
 [dev-packages]
-faker = "*"
+autopep8 = "2.0.0"
+pylint = "2.15.5"
+pylint-django = "2.5.3"
+pytest-django = "*"
 
 [requires]
 python_version = "3.9"
-
-[scripts]
-test = "python manage.py test"

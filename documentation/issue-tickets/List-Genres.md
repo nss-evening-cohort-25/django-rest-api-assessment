@@ -10,17 +10,15 @@ This ticket requests the implementation of a route that retrieves a list of all 
 ## Response
 - **Body**
   ```json
-  {
-    "genres": [
-      {
-        "id": 123,
-        "description": "Genre 1"
-      },
-      {
-        "id": 456,
-        "description": "Genre 2"
-      }
-    ]
-  }
+  [
+    {
+      "id": 123,
+      "description": "Genre 1"
+    },
+    {
+      "id": 456,
+      "description": "Genre 2"
+    }
+  ]
   ```
 - **Status Code:** 200 OK
