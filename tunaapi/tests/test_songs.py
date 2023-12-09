@@ -92,12 +92,6 @@ class TestSongs(APITestCase):
         self.assertTrue("album" in single_song)
         self.assertTrue("length" in single_song)
 
-    # def test_details_not_found(self):
-    #     song = Song.objects.all().last()
-    #     response = self.client.get(f"/songs/{song.id + 1}")
-
-    #     self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
-
     def test_details(self):
         song = Song.objects.all()[0]
         response = self.client.get(f"/songs/{song.id}")

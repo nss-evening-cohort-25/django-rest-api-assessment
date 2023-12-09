@@ -14,4 +14,11 @@ This ticket requests the implementation of a route that allows updating an exist
   ```
 
 ## Response
-- **Status Code:** 204 No Content
+- **Body**
+  ```json
+  {
+    "id": {genreId},
+    "description": "Updated Genre Description"
+  }
+  ```
+- **Status Code:** 200 OK

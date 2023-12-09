@@ -83,12 +83,6 @@ class TestArtists(APITestCase):
         self.assertTrue("age" in first_artist)
         self.assertTrue("bio" in first_artist)
 
-    # def test_details_not_found(self):
-    #     artist = Artist.objects.all().last()
-    #     response = self.client.get(f"/artists/{artist.id + 1}")
-
-    #     self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
-
     def test_details(self):
         artist = Artist.objects.all()[0]
         response = self.client.get(f"/artists/{artist.id}")

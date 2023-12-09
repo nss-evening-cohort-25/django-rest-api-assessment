@@ -16,4 +16,13 @@ This ticket requests the implementation of a route that allows updating an exist
   ```
 
 ## Response
-- **Status Code:** 204 No Content
+- **Body**
+  ```json
+  {
+    "id": {artistId},
+    "name": "Updated Artist Name",
+    "age": 30,
+    "bio": "Updated Artist Bio"
+  }
+  ```
+- **Status Code:** 200 OK

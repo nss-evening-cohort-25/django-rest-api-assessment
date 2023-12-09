@@ -69,12 +69,6 @@ class TestGenres(APITestCase):
         self.assertTrue("id" in first_genre)
         self.assertTrue("description" in first_genre)
 
-    # def test_details_not_found(self):
-    #     genre = Genre.objects.all().last()
-    #     response = self.client.get(f"/genres/{genre.id + 1}")
-
-    #     self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
-
     def test_details(self):
         genre = Genre.objects.all()[0]
         response = self.client.get(f"/genres/{genre.id}")

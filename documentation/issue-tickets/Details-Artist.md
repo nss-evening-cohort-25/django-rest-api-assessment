@@ -6,8 +6,9 @@ This ticket requests the implementation of a route that retrieves the details of
 ## Request
 - **Method:** GET
 - **Path:** /artists/{artistId}
+- unnecessary
 
-## Response if Artist exists
+## Response
 - **Body**
   ```json
   {
@@ -33,6 +34,3 @@ This ticket requests the implementation of a route that retrieves the details of
   }
   ```
 - **Status Code:** 200 OK
-
-## Response if Artist doesn't exist
-- **Status Code:** 404 Not Found
