@@ -16,6 +16,36 @@ Let's make millions! 💰 💰 💰
 6. Ensure that the correct interpreter is selected.
 7. Implement the code.
 
+## Running Tests
+
+This repository includes tests that you can use to assess your code against the MVP (Minimum Viable Product) requirements. You can run these tests by following the instructions below:
+
+### Using `python manage.py test`
+
+1. Open your terminal or command prompt.
+2. Navigate to the project's root directory.
+3. Run the following command to execute the tests:
+   ```bash
+   python manage.py test
+   ```
+4. The results of the tests will be displayed in the terminal. Use your debugging skills to interpret the test results.
+5. If you have any questions or encounter issues with the tests, feel free to create a discussion ticket to seek help and clarification.
+
+### Using `pytest` (Note: VSCode Compatibility)
+
+We have also set up pytest for testing purposes. However, please be aware that there might be compatibility issues with VSCode that could prevent pytest from working correctly. If you encounter any problems with pytest, please follow the steps below:
+
+1. Attempt to run the tests using pytest by running the following command:
+
+   ```bash
+   pytest
+   ```
+
+2. If pytest works as expected, you can use it for testing. However, if you encounter any issues, follow the alternative method using `python manage.py test` as described above.
+
+By following these instructions, you can effectively test your code against the MVP requirements and seek assistance if needed.
+
+
 ### MVP Routes by Entity
 
 These are all the available routes for this API. Each route has an associated ticket containing the following information:
