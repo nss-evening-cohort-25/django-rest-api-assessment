@@ -33,4 +33,3 @@ This ticket requests the implementation of a route that retrieves the details of
     ]
   }
   ```
-- **Status Code:** 200 OK
