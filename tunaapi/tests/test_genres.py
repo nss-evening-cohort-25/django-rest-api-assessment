@@ -1,7 +1,7 @@
 from rest_framework import status
 from rest_framework.test import APITestCase
 
-from tunaapi.models import Genre
+from tunaapi.models import Genre, SongGenre
 
 from .utils import create_data, refresh_data
 
@@ -79,7 +79,8 @@ class TestGenres(APITestCase):
 
         self.assertEqual(data["id"], genre.id)
         self.assertEqual(data["description"], genre.description)
-        self.assertEqual(len(data["songs"]), len(genre.genre_songs.all()))
+        song_genres = SongGenre.objects.filter(genre=genre)
+        self.assertEqual(len(data["songs"]), len(song_genres))
 
         first_song = data["songs"][0]
 
