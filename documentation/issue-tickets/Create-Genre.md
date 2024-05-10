@@ -21,4 +21,3 @@ This ticket requests the implementation of a route that allows the creation of a
     "description": "Genre Description"
   }
   ```
-- **Status Code:** 201 Created

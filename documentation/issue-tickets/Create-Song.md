@@ -27,4 +27,3 @@ This ticket requests the implementation of a route that allows the creation of a
     "length": 180
   }
   ```
-- **Status Code:** 201 Created

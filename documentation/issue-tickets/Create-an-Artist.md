@@ -25,4 +25,3 @@ This ticket requests the implementation of a route that allows the creation of a
     "bio": "Artist Bio"
   }
   ```
-- **Status Code:** 201 Created

@@ -1,4 +1,4 @@
-# Self-Assess Your Django Competencies 
+# Self-Assess Your Django Competencies
 
 ## 🐟 Tuna Piano API
 
@@ -19,14 +19,15 @@ Let's make millions! 💰 💰 💰
 ### MVP Routes by Entity
 
 These are all the available routes for this API. Each route has an associated ticket containing the following information:
-- Route description.
+
+- Route description
 - Request structure:
-    - HTTP method.
-    - Route path.
-    - JSON body (if applicable).
+  - HTTP method.
+  - Route path.
+  - JSON body (if applicable).
 - Response structure:
-    - JSON body (if applicable).
-    - Status code.
+  - JSON body (if applicable).
+  - Status code.
 
 #### 🎶 Songs
 
@@ -66,6 +67,7 @@ These are examples of stretch goals that you can tackle once you have been MVP a
 ## Data Design
 
 ![ERD Picture](https://github.com/TrinityChristiana/django-api-assessment/assets/31781724/a39bab27-bc1e-4a42-9ecc-ab96130bb509)
+
 - [Link to ERD Docs](https://dbdocs.io/trinitycterry/Tuna-Piano-API?view=relationships)
 
 To include the specific instructions for seeking help, you can update the "Seeking Help and Clarification" section as follows:
@@ -79,9 +81,11 @@ This repository includes tests that you can use to assess your code against the 
 1. Open your terminal or command prompt.
 2. Navigate to the project's root directory.
 3. Run the following command to execute the tests:
+
    ```bash
    python manage.py test
    ```
+
 4. The results of the tests will be displayed in the terminal. Use your debugging skills to interpret the test results.
 5. If you have any questions or encounter issues with the tests, feel free to create a discussion ticket to seek help and clarification.
 
@@ -90,13 +94,14 @@ This repository includes tests that you can use to assess your code against the 
 We have also set up pytest for testing purposes. However, please be aware that there might be compatibility issues with VSCode that could prevent pytest from working correctly. If you encounter any problems with pytest, please follow the steps below:
 
 1. Attempt to run the tests using pytest by running the following command:
+
    ```bash
    pytest
    ```
+
 2. If pytest works as expected, you can use it for testing. However, if you encounter any issues, follow the alternative method using `python manage.py test` as described above.
 
 By following these instructions, you can effectively test your code against the MVP requirements and seek assistance if needed.
-
 
 ## Viewing Test Results on GitHub
 
@@ -114,7 +119,6 @@ To check the results of your tests on GitHub within your Pull Request (PR), foll
 10. **Merge Your PR**: Once all tests pass, and you are satisfied with your code, proceed to merge your PR into the main branch.
 
 By following these detailed steps, you'll be able to access and interpret the test results within your GitHub PR, making it easier to address any issues and ensure the successful submission of your assignment.
-
 
 ## Submitting Your Assignment
 
@@ -142,13 +146,3 @@ If you encounter challenges or need clarification during the assessment, follow 
 5. Be patient and allow time for the instructional team to review and respond to your ticket. They will provide guidance or clarification to help you move forward.
 
 By following these steps, you can ensure that your questions and issues are properly documented and brought to the attention of the instructional team. This process helps streamline communication and allows the team to provide timely and targeted assistance to support your progress during the assessment.
-
-## Best Practices for Code Organization and Implementation
-
-Consider the following tips and best practices to ensure an organized and well-structured codebase:
-
-- Follow the principles of separation of concerns and modularity, organizing code into logical components and modules.
-- Adopt a consistent coding style and naming conventions to enhance readability and maintainability.
-- Implement reusable functions or utility modules to avoid code duplication.
-- Comment code sections that might require additional explanation or clarification.
-- Properly document the API endpoints, including their purpose, expected inputs, and outputs.

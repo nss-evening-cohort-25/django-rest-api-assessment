@@ -25,4 +25,3 @@ This ticket requests the implementation of a route that retrieves a list of all 
     }
   ]
   ```
-- **Status Code:** 200 OK
